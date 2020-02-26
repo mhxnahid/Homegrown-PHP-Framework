@@ -5,7 +5,6 @@ use App\Middleware\AuthMiddleware;
 use App\Middleware\SecondMiddleware;
 
 require __DIR__ . '/../vendor/autoload.php';
-$routes = require __DIR__ . '/../routes.php';
 
 //whoops
 $whoops = new \Whoops\Run;
